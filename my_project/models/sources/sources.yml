@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: my_source  # You can name this whatever you like
+    database: Med  # Replace with your database name
+    schema: public
+    tables:
+      - name: cleaned_data  # The name of your table
